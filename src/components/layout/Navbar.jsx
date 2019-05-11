@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import SignedInLinks from './SignedInLinks';
 import SignedOutLinks from './SingnedOutLinks';
-import { connect } from 'react-redux'
+import { connect } from 'react-redux';
 
 const Navbar = (props) => {
   const { auth } = props;
