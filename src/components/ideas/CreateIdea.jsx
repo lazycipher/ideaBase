@@ -18,6 +18,7 @@ class CreateIdea extends Component {
         e.preventDefault();
         // console.log(this.state);
         this.props.createIdea(this.state);
+        this.props.history.push('/');
     }
     render() {
         const { auth } = this.props;
