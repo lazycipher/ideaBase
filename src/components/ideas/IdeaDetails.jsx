@@ -10,10 +10,10 @@ const IdeaDetails = (props) => {
     if(!auth.uid) return <Redirect to="/signin" />
     if( idea ) {
         return (
-            <div className="container section project-details">
+            <div style={{borderRadius: "25px", marginTop: "15vh"}} className="container section project-details z-depth-2">
             <div className="card z-depth-0">
                 <div className="card-content">
-                    <span className="card-title">{idea.title}</span>
+                    <span className="card-title text-black ">{idea.title}</span>
                     <p>{ idea.desc }</p>
                 </div>
                 <div className="card-action gret lighten-4 grey-text">
@@ -34,7 +34,6 @@ const IdeaDetails = (props) => {
 }
 
 const mapStateToProps = (state, ownProps) => {
-    console.log(state);
     const id = ownProps.match.params.id;
     const ideas = state.firestore.data.ideas;
     const idea = ideas ? ideas[id] : null;

@@ -10,7 +10,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: rgb(216, 214, 214);
+  background: rgb(255, 255, 255);
   min-height: 100%;
 }
 
@@ -32,7 +32,7 @@ input[type=text]:not(.browser-default):focus:not([readonly]),
 input[type=email]:not(.browser-default):focus:not([readonly]),
 input[type=password]:not(.browser-default):focus:not([readonly]),
 textarea.materialize-textarea:focus:not([readonly]){
-  border-color: #ec407a;
+  border-color: #0288d1;
   box-shadow: none;
 }
 
@@ -40,5 +40,5 @@ input[type=text]:not(.browser-default):focus:not([readonly]) + label,
 textarea.materialize-textarea:focus:not([readonly]) + label,
 input[type=email]:not(.browser-default):focus:not([readonly]) + label,
 input[type=password]:not(.browser-default):focus:not([readonly]) + label{
-  color: #ec407a !important;
+  color: #0288d1 !important;
 }
