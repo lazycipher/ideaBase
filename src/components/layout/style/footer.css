@@ -6,6 +6,7 @@ footer {
     color: white;
     text-align: center;
     opacity: 0.7;
+    background: black;
  }
 footer > div {
     padding: 5px;
