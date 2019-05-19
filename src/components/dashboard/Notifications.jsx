@@ -4,7 +4,7 @@ import moment from 'moment';
 const Notifications = (props) => {
   const { notifications } = props;
   return(
-      <div className="section z-depth-1">
+      <div className="section z-depth-1 white">
         <div className="card z-depth-0">
           <div className="card-content">
             <span className="card-title">Notifications</span>

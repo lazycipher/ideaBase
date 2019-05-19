@@ -10,7 +10,7 @@ const IdeaDetails = (props) => {
     if(!auth.uid) return <Redirect to="/signin" />
     if( idea ) {
         return (
-            <div style={{borderRadius: "25px", marginTop: "15vh"}} className="container section project-details z-depth-2">
+            <div style={{borderRadius: "25px", marginTop: "15vh", marginBottom: "15vh"}} className="container section z-depth-2 white">
             <div className="card z-depth-0">
                 <div className="card-content">
                     <span className="card-title text-black ">{idea.title}</span>

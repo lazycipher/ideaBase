@@ -6,6 +6,7 @@ import IdeaDetails from './components/ideas/IdeaDetails';
 import SignIn from './components/auth/SignIn';
 import SignUp from './components/auth/SignUp';
 import CreateIdea from './components/ideas/CreateIdea';
+import Footer from './components/layout/Footer'
 
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
             <Route path="/signup" component={SignUp} />
             <Route path="/newIdea" component={CreateIdea} />
           </Switch>
+          <Footer />
         </div>
       </BrowserRouter>
     );

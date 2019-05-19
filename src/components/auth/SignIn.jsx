@@ -25,7 +25,7 @@ class SignIn extends Component {
         if(auth.uid) return <Redirect to="/" />
         return (
         <div style={{marginTop: "15vh"}} className="row center">
-            <div className="col s10 m4 offset-s1 offset-m4 z-depth-3">
+            <div className="col s10 m4 offset-s1 offset-m4 z-depth-3 white">
                 <form onSubmit={this.handleSubmit} className="white">
                     <h5 className="grey-text text-darken-3">Sign In</h5>
                     <div className="input-field">
